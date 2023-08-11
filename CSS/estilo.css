@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: rgba(1, 127, 141, 0.612);
+}
+
+#textoC{
+    margin-left: 25%;
+    font-size: 90px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(242, 145, 121);
+    text-shadow: 8px 5px 5px rgba(0, 0, 0, 0.744);
+}
+
+#cabecalho{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+
+#valorA{
+    background-color: rgb(242, 220, 194);
+    width: 150px;
+    height: 130px;
+    border-radius: 10px;
+    border-color: rgba(255, 255, 255, 0);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.744);
+    font-size: 70px;
+    text-align: center;
+
+}
+
+#operador{
+    background-color: rgb(242, 145, 121);
+    width: 200px;
+    height: 70px;
+    border-radius: 10px;
+    border-color: rgba(255, 255, 255, 0);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.744);
+    font-size: 70px;
+    margin-left: 0px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#valorB{
+    background-color: rgb(242, 220, 194);
+    width: 170px;
+    height: 130px;
+    border-radius: 10px;
+    border-color: rgba(255, 255, 255, 0);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.744);
+    font-size: 70px;
+    text-align: center;
+
+}
+
+#lembrete{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-weight: bold;
+
+}
+
+#botao{
+    background-color: rgb(91, 205, 91);
+    width: 260px;
+    height: 100px;
+    border-radius: 10px;
+    border-color: rgba(255, 255, 255, 0);
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.744);
+    margin-left: 38%;
+    margin-top: 3%;
+
+}
+
+
+#resultado{
+    width: 200px;
+    border-radius: 10px;
+    border-color: rgba(255, 255, 255, 0);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.744);
+    font-size: 70px;
+    margin-left: 40%;
+    text-align: center;
+
+}

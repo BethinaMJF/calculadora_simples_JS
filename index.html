@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora verdade </title>
+    <link rel="stylesheet" href="/CSS/estilo.css">
+</head>
+<body>
+
+    <p id="textoC">CALCULADORA</p>
+
+    <div id="cabecalho">
+        <input type="number" id="valorA">
+
+        <div id="help">
+            <p id="lembrete">S: soma  ------------  U: subtração <br><br> M: multiplicação ------  D: divisão</p>
+            <input type="text" id="operador">
+        </div>
+
+        <input type="number" id="valorB">
+    </div>
+
+    <div id="centro">
+        <button onclick="funcaoDeCalculo()" id="botao">CALCULAR </button>
+    </div>
+
+    <div id="resultado"></div>
+   
+    <script src="JS/calc.js"></script>
+
+</body>
+</html>
